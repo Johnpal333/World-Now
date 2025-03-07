@@ -1,71 +1,69 @@
-# CRJK News App
+# 🌍 World Now - Your Gateway to Instant News 📰
 
-A modern and responsive news application built with React and APIs, designed to deliver the latest news updates with advanced features like category filters, search functionality, infinite scrolling, and a sleek UI with dark/light mode support.
+![World Now](https://via.placeholder.com/1200x400.png?text=World+Now+News)
 
-## Features 🚀
+## 📌 About
 
-- 📌 **Latest India-based news**
-- 🔍 **Search bar** for easy access to specific topics
-- 📑 **Category filters** (Sports, Tech, Business, etc.)
-- 🔄 **Infinite scroll** for seamless news browsing
-- 📐 **Professional, visually appealing UI** with a multi-column layout
-- ⚡ **Optimized for fast loading**
+**World Now** is a real-time news web application that fetches the latest trending news from around the world. Powered by **React.js** and **Tailwind CSS**, this app delivers breaking news with a clean and modern UI.
 
-## 🖼️ Screenshots
+## 🚀 Features
 
-[Screenshot_7-3-2025_191655_localhost](https://github.com/user-attachments/assets/e2188dde-d179-4311-ba2c-c857d7ff7d74)
+- 🌎 **Trending News** - Stay updated with the latest headlines
+- 🔍 **Search Functionality** - Find news on any topic instantly
+- 📊 **Categorized News** - Business, Sports, Politics, Health, and more
+- 💡 **Dark Mode UI** - Elegant black & yellow theme
+- 📩 **Newsletter Subscription** - Get news directly in your inbox
 
-## Technologies Used 🛠️
+## 🎨 UI Preview
 
-- **Frontend:** React with Vite
-- **Backend:** News API integration
-- **Styling:** HTML, CSS, JavaScript
-- **State Management:** React Hooks
+![World Now UI](https://via.placeholder.com/800x400.png?text=World+Now+UI)
 
-## Installation & Setup ⚙️
+## 🛠️ Technologies Used
 
-Follow these steps to run the project locally:
+- **React.js** ⚛️ - Front-end framework
+- **Tailwind CSS** 🎨 - Styling & responsive design
+- **GNews API** 📡 - Fetching latest news articles
 
-### 1️⃣ Clone the repository
+## 🏗️ Setup & Installation
 
+### 1️⃣ Clone the Repository
 ```bash
- git clone https://github.com/KarthiKeyanG11/news-app.git
- cd news-app
+git clone https://github.com/tonystark1316/World-Now.git
+cd World-Now
 ```
 
-### 2️⃣ Install dependencies
-
+### 2️⃣ Install Dependencies
 ```bash
- npm install
+npm install
 ```
 
-### 3️⃣ Run the development server
+### 3️⃣ Configure API Key
+Replace `YOUR_API_KEY` in `Newsapp.js` with your GNews API key.
 
-```bash
- npm start (or) npm run dev
+```js
+const API_KEY = "YOUR_API_KEY";
 ```
 
-The app should now be running on `http://localhost:5173/`.
-
-## Deployment 🚀
-
-To deploy the app, you can use services like Vercel, Netlify, or GitHub Pages:
-
+### 4️⃣ Start the Application
 ```bash
- npm run build
+npm start
 ```
 
-This will create an optimized production build inside the `dist` folder.
+The app will now run on **http://localhost:3000** 🚀
 
-## Contributors 🤝
+## 💻 Contributing
 
-👨‍💻 **[KARTHIKEYAN G](mailto:karthikeyan1152005@gmail.com)** - Team Leader  
-👨‍💻 **[RAGHUL M](mailto:raghul.cs2225@gmail.com)** - Team Member  
-👨‍💻 **[CHANDRU A](mailto:chandru.cs2225@gmail.com)** - Team Member  
-👨‍💻 **[RAKESH R](mailto:rakesh.cs2225@gmail.com)** - Team Member  
-👨‍💻 **[JANARTHANAN S](mailto:janarthanan.cs2225@gmail.com)** - Team Member  
+1. Fork the repo
+2. Create a new branch (`feature-name`)
+3. Commit your changes
+4. Push to your fork
+5. Open a Pull Request
+
+## 🌟 Show Your Support
+
+⭐ If you like this project, give it a star on **[GitHub](https://github.com/tonystark1316/World-Now)**!
+
+📧 Contact: [contact@worldnow.com](mailto:contact@worldnow.com)
 
 ---
-
-⭐ **Don't forget to star the repo if you like it!** ⭐
-
+_Developed with ❤️ by **Naveendran**_
